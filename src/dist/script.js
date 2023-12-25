@@ -4,8 +4,8 @@ shareBtn.addEventListener('click', event => {
     if(navigator.share)
     {
         navigator.share({
-            text: 'Lets Friends Together',
-            url: 'https://www.google.com/'
+            text: 'Lets work together',
+            url: 'https://alvinzanuaputra.github.io/profilezanuatech/'
         }).then(() => {
             console.log('Thanks for sharing !');
         })
